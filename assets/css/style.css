@@ -13,7 +13,6 @@ body{
     float:left;
 }
 .pagetitle{
-    
     clear: both;
     overflow: auto;
     color: #4aaaa5;
@@ -23,25 +22,46 @@ body{
 }
 
 header{
-    width:960px;
-
+    width:100%;
+    position: fixed;
+    top: 0;
+    left:0;
 }
 
 .buttonbox{
     margin-left: 0;
-    background-color: gray;
-    padding-left: 200px;
-    height: 28px;
+    background-color: #ffffff;
+    padding-left: 700px;
+    padding-top: 20px;
+    height: 48px;
 }
 
 .content{
+    color:#777777;
+    margin: 0 auto;
     background-color: #ffffff;
     width: 960px;
-    border-color:black;
-    border-width: 10px;
-
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
 }
 
 #mainparagraph{
+}
 
+.thinline{
+    width: 100%;
+    Height: 3px;
+    background-color:#4aaaa5;
+}
+
+Footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    margin-top: 20Px;
+    background-color:#666666;
+    Width: 100%;
+    Height: 20px;
 }
