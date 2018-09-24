@@ -82,6 +82,7 @@ a:hover {
     margin-top:100px;
     margin-bottom: 100px;
     padding-right: 20px;
+    overflow:auto;
 }
 
 .thinline{
