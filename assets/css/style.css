@@ -1,5 +1,9 @@
 body{
     background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: black;
+    background-size: cover;
 }
 .namebox{
     float: left;   
@@ -179,5 +183,9 @@ input[type=submit], select {
 
 #emailform {
     margin-left:20px;
+
+}
+
+#footballLabel {
 
 }
